@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================================
+         BASIC META
+    ========================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A little birthday experience made especially for you."
+    >
+
+    <meta
+        name="theme-color"
+        content="#09060c"
+    >
+
+    <title>HAPPY BIRTHDAY MANNAT❤️❤️ 👑</title>
+
+
+    <!-- =========================================
+         GOOGLE FONTS
+    ========================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================================
+         CSS
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div id="heart-container"></div>
+    <!-- =========================================
+         BACKGROUND
+    ========================================== -->
+
+    <div class="background">
+
+        <div class="aurora aurora-1"></div>
+
+        <div class="aurora aurora-2"></div>
+
+        <div class="aurora aurora-3"></div>
+
+    </div>
+
+
+    <!-- PARTICLES -->
+
+    <canvas id="particles"></canvas>
+
+
+    <!-- FLOATING HEARTS -->
+
+    <div id="heart-container"></div>
+
+
+    <!-- =========================================
+         OPTIONAL MUSIC
+    ========================================== -->
+
+    <audio
+        id="leberch-love-love-music-583383.mp3"
+        loop
+    >
+
+        <!--
+        OPTIONAL:
+
+        Put music.mp3 in the same folder
+        and uncomment this:
+
+        <source
+            src="music.mp3"
+            type="audio/mpeg"
+        >
+        -->
+
+    </audio>
+
+
+    <!-- MUSIC BUTTON -->
+
+    <button
+        class="music-button"
+        id="musicButton"
+        type="button"
+        aria-label="Toggle music"
+    >
+
+        <span>♫</span>
+
+    </button>
+
+
+    <!-- =====================================================
+         INTRODUCTION / 3 CLICK GIFT SEQUENCE
+    ====================================================== -->
+
+    <main
+        id="intro"
+        class="intro"
+    >
+
+        <div class="intro-glow"></div>
+
+
+        <div class="intro-content">
+
+
+            <!-- SMALL LABEL -->
+
+            <div class="tiny-label">
+
+                A LITTLE SOMETHING FOR YOU
+
+            </div>
+
+
+            <!-- CROWN -->
+
+            <div class="crown">
+
+                ♕
+
+            </div>
+
+
+            <!-- TITLE -->
+
+            <h1 id="introTitle">
+
+                I have something<br>
+
+                <span>
+                    special
+                </span>
+
+                for you.
+
+            </h1>
+
+
+            <!-- DESCRIPTION -->
+
+            <p id="introText">
+
+                But you have to unlock it first...
+
+            </p>
+
+
+            <!-- GIFT BUTTON -->
+
+            <button
+                id="giftButton"
+                class="luxury-button"
+                type="button"
+            >
+
+                <span id="buttonText">
+
+                    Click here for your gift
+
+                </span>
+
+                <span class="button-arrow">
+
+                    →
+
+                </span>
+
+            </button>
+
+
+            <!-- PROGRESS -->
+
+            <div class="progress">
+
+
+                <span
+                    class="progress-dot active"
+                ></span>
+
+
+                <span
+                    class="progress-line"
+                ></span>
+
+
+                <span
+                    class="progress-dot"
+                ></span>
+
+
+                <span
+                    class="progress-line"
+                ></span>
+
+
+                <span
+                    class="progress-dot"
+                ></span>
+
+
+            </div>
+
+
+            <!-- ATTEMPT COUNTER -->
+
+            <p
+                class="attempt"
+                id="attemptText"
+            >
+
+                Unlock 1 of 3
+
+            </p>
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         MAIN BIRTHDAY EXPERIENCE
+    ====================================================== -->
+
+    <main
+        id="birthday"
+        class="birthday hidden"
+    >
+
+
+        <!-- =========================================
+             HERO
+        ========================================== -->
+
+        <section class="hero-section">
+
+
+            <!-- BADGE -->
+
+            <div class="hero-badge">
+
+                ✦ A DAY MADE FOR YOU ✦
+
+            </div>
+
+
+            <!-- CROWN -->
+
+            <div class="hero-crown">
+
+                ♕
+
+            </div>
+
+
+            <!-- MAIN TITLE -->
+
+            <h2>
+
+                Happy Birthday,
+
+                <span>
+
+                   MANNAT❤️❤️
+
+                </span>
+
+            </h2>
+
+
+            <!-- SUBTITLE -->
+
+            <p class="hero-subtitle">
+
+                Today isn't just another day.
+
+                <br>
+
+                Today's the birthday of one of my favourite person.
+                        IT's YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUu
+
+            </p>
+
+
+
+            <!-- =====================================
+                 FIRST IMAGE
+            ====================================== -->
+
+            <div class="main-image-wrapper">
+
+
+                <div class="image-glow"></div>
+
+
+                <div class="image-frame">
+
+
+                    <!-- DECORATIVE CORNERS -->
+
+                    <div
+                        class="image-corner top-left"
+                    ></div>
+
+
+                    <div
+                        class="image-corner top-right"
+                    ></div>
+
+
+                    <div
+                        class="image-corner bottom-left"
+                    ></div>
+
+
+                    <div
+                        class="image-corner bottom-right"
+                    ></div>
+
+
+                    <!-- YOUR FIRST IMAGE -->
+
+                    <img
+                        src="IMG-20260523-WA0262.jpg"
+                        alt="A beautiful birthday memory"
+                        class="main-image"
+                        id="mainImage"
+                    >
+
+
+                    <!-- IMAGE OVERLAY -->
+
+                    <div class="image-overlay">
+
+                        <span>
+
+                            ♡
+
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- IMAGE CAPTION -->
+
+                <div class="image-caption">
+
+                    <span></span>
+
+                    One beautiful soul
+
+                    <span></span>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =====================================
+                 BIRTHDAY MESSAGE
+            ====================================== -->
+
+            <div class="message-card">
+
+
+                <div class="quote-mark">
+
+                    “
+
+                </div>
+
+
+                <p>
+
+                    You're honestly one of my favorite humans. And yes, sometimes you are dramatic, irritating, 
+                    impossible to understand and somehow still convinced that you're always right 😭😂
+                     — but somehow I wouldn't change any of it. Your weirdness has become one of the things 
+                     I love most about our friendship. Life would definitely be quieter without you...
+                     but also way more boring, and I absolutely refuse to live in that universe. ♡
+
+                </p>
+
+
+                <div class="signature">
+
+                    Made with ♡, just for you
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             LITTLE DETAILS
+        ================================================== -->
+
+        <section class="little-section">
+
+
+            <div class="section-heading">
+
+                <span>✦</span>
+
+                A FEW THINGS ABOUT TODAY
+
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="cards">
+
+
+                <!-- CARD 1 -->
+
+                <div class="mini-card">
+
+
+                    <div class="mini-icon">
+
+                        👑
+
+                    </div>
+
+
+                    <h3>
+
+                        Queen's Day
+
+                    </h3>
+
+
+                    <p>
+
+                        Your only job today is to smile,
+                        relax and enjoy being celebrated.
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- CARD 2 -->
+
+                <div class="mini-card">
+
+
+                    <div class="mini-icon">
+
+                        ✨
+
+                    </div>
+
+
+                    <h3>
+
+                        Main Character
+
+                    </h3>
+
+
+                    <p>
+
+                        No side characters today.
+                        The spotlight belongs entirely to you.
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- CARD 3 -->
+
+                <div class="mini-card">
+
+
+                    <div class="mini-icon">
+
+                        💌
+
+                    </div>
+
+
+                    <h3>
+
+                        One Wish
+
+                    </h3>
+
+
+                    <p>
+
+                        May this new chapter bring you
+                        everything your heart quietly wishes for.
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             ONE MORE SURPRISE
+        ================================================== -->
+
+        <section class="surprise-section">
+
+
+            <!-- DECORATIVE LINE -->
+
+            <div class="surprise-line"></div>
+
+
+            <div class="surprise-content">
+
+
+                <!-- SMALL LABEL -->
+
+                <span class="surprise-small">
+
+                    WAIT...
+
+                </span>
+
+
+                <!-- TITLE -->
+
+                <h2>
+
+                    You didn't think<br>
+
+                    <span>
+
+                        that was everything,
+
+                    </span>
+
+                    did you?
+
+                </h2>
+
+
+                <!-- DESCRIPTION -->
+
+                <p>
+
+                    My bestie deserves more than
+                    one surprise. 👑
+
+                </p>
+
+
+                <!-- SECOND GIFT BUTTON -->
+
+                <button
+                    id="surpriseButton"
+                    class="luxury-button"
+                    type="button"
+                >
+
+                    <span
+                        id="surpriseButtonText"
+                    >
+
+                        Unlock one more gift
+
+                    </span>
+
+
+                    <span class="button-arrow">
+
+                        →
+
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             FINAL / SECOND GIFT REVEAL
+        ================================================== -->
+
+        <section id="finalReveal" class="final-section hidden">
+
+    <div class="final-page-background"></div>
+
+    <div class="final-page-content">
+
+        <div class="final-stars">
+            ✦ ✧ ✦
+        </div>
+
+        <div class="final-image-wrapper">
+
+            <div class="final-image-glow"></div>
+
+            <div class="final-image-frame">
+
+                <img
+            src="./IMG20250221150739.jpg"
+            alt="A special birthday memory"
+            id="surpriseImage"
+        >
+
+            </div>
+
+        </div>
+
+        <div class="final-message">
+
+            <div class="final-crown">
+                ♕
+            </div>
+
+            <h2>
+                One more little<br>
+                <span>
+                    surprise for you.
+                </span>
+            </h2>
+
+            <p>
+                Because one beautiful memory
+                simply wasn't enough.
+            </p>
+
+            <div class="final-wish">
+                Keep smiling, keep shining,
+                and keep being the wonderful person
+                you are. ✨
+            </div>
+
+            <div class="final-signature">
+                Happy Birthday, MANNAT, My one and only best friend❤️❤️ 👑
+                There are some people who slowly become a beautiful part of your life without you even realizing it.
+                 And then there are people like you — who somehow make ordinary days feel a little more special just by being there.  
+                 You are one of those rare people who can turn a boring moment into a memory, a bad day into something bearable, 
+                and a simple conversation into something I end up remembering for way too long. ♡
+                Thank you for being yourself. Thank you for the conversations, the laughs, the random moments, the support,
+                 and all those tiny things that might seem insignificant but actually mean a lot.
+                  You don't have to do anything extraordinary to be special.
+                  Your existence itself has become a beautiful part of my life,
+                 and I'm genuinely thankful for every memory we've created together.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer>
+
+
+            <div class="footer-line"></div>
+
+
+            <p>
+
+                Crafted with care
+
+                <span>
+
+                    ♡
+
+                </span>
+
+            </p>
+
+
+            <small>
+
+                For someone who deserves
+                a little extra magic.
+
+            </small>
+
+
+        </footer>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         TOAST MESSAGE
+    ====================================================== -->
+
+    <div
+        id="toast"
+        class="toast"
+    >
+
+        <span>
+
+            ✨
+
+        </span>
+
+
+        <p id="toastText">
+
+            Wait...
+
+        </p>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
